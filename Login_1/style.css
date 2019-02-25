@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #34495e;
+}
+
+.box{
+    position: absolute;
+    width: 300px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #2c3e50;
+}
+
+.box h1{
+    color: white;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.box input[type = 'text'],
+.box input[type = 'password']{
+    display: block;
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    border: 2px solid #2980b9;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+}
+
+.box input[type = 'text']:focus,
+.box input[type = 'password']:focus{
+    width: 280px;
+    border-color: #e67e22;
+}
+
+.box input[type = 'submit']{
+    display: block;
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 40px;
+    border: 2px solid #2980b9;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.box input[type = 'submit']:hover{
+    background: #27ae60;
+}
